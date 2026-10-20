@@ -4,7 +4,10 @@ import { Button } from "@/components/ui/button";
 /** Introduces Haitamim's AI engineering focus and primary actions. */
 export function HeroSection() {
   return (
-    <section className="section grid min-h-[78vh] items-center gap-12 lg:grid-cols-[1.25fr_0.75fr]" id="home">
+    <section
+      className="section grid min-h-[78vh] items-center gap-12 lg:grid-cols-[1.25fr_0.75fr]"
+      id="home"
+    >
       <div>
         <p className="mb-7 inline-flex items-center gap-2 rounded-full border border-emerald-300/25 bg-emerald-300/10 px-3 py-1.5 text-sm font-medium text-emerald-100 waguri:border-lavender-blush-300/30 waguri:bg-lavender-blush-400/15">
           <span aria-hidden="true">🟢</span>
@@ -23,10 +26,12 @@ export function HeroSection() {
         </p>
         <div className="mt-9 flex flex-wrap gap-3">
           <Button asChild>
-            <a href="#projects">Lihat Proyek <ArrowUpRight size={16} /></a>
+            <a href="#projects">
+              Lihat Proyek <ArrowUpRight size={16} />
+            </a>
           </Button>
           <Button asChild variant="outline">
-            <a download href="/AI Engineer - Haitamim Jahran Mahendra.pdf">
+            <a download href="/CV_Haitamim_Jahran_Mahendra.pdf">
               Unduh CV <ArrowDownToLine size={16} />
             </a>
           </Button>
@@ -40,21 +45,30 @@ export function HeroSection() {
         <div className="mt-10 space-y-5">
           <div>
             <div className="mb-2 flex justify-between text-sm text-slate-300">
-              <span>Local RAG</span><span>90%</span>
+              <span>Local RAG</span>
+              <span>90%</span>
             </div>
-            <div className="progress"><div className="h-full w-[90%] rounded-full bg-sky-400 waguri:bg-lavender-blush-400" /></div>
+            <div className="progress">
+              <div className="h-full w-[90%] rounded-full bg-sky-400 waguri:bg-lavender-blush-400" />
+            </div>
           </div>
           <div>
             <div className="mb-2 flex justify-between text-sm text-slate-300">
-              <span>Data engineering</span><span>85%</span>
+              <span>Data engineering</span>
+              <span>85%</span>
             </div>
-            <div className="progress"><div className="h-full w-[85%] rounded-full bg-sky-400 waguri:bg-lavender-blush-400" /></div>
+            <div className="progress">
+              <div className="h-full w-[85%] rounded-full bg-sky-400 waguri:bg-lavender-blush-400" />
+            </div>
           </div>
           <div>
             <div className="mb-2 flex justify-between text-sm text-slate-300">
-              <span>Agentic systems</span><span>80%</span>
+              <span>Agentic systems</span>
+              <span>80%</span>
             </div>
-            <div className="progress"><div className="h-full w-4/5 rounded-full bg-sky-400 waguri:bg-lavender-blush-400" /></div>
+            <div className="progress">
+              <div className="h-full w-4/5 rounded-full bg-sky-400 waguri:bg-lavender-blush-400" />
+            </div>
           </div>
         </div>
       </div>
